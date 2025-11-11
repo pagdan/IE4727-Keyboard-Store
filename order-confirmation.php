@@ -47,7 +47,7 @@ $cart_count = getCartCount();
     <!-- Header -->
     <header>
         <div class="container">
-            <h1><a href="index.php">⌨️ KeyboardHub</a></h1>
+            <a href="index.php"><img src="images/RBKLogo.png" height=67px width= 67px alt="RobbingKeebsLogo" /></a>
             <nav>
                 <ul>
                     <li><a href="index.php">Home</a></li>
@@ -281,7 +281,7 @@ $cart_count = getCartCount();
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 KeyboardHub. All rights reserved.</p>
+            <p>&copy; 2025 RobbingKeebs. All rights reserved.</p>
             <p>Your destination for premium mechanical keyboards</p>
         </div>
     </footer>

@@ -32,14 +32,14 @@ if ($category_id) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products - KeyboardHub</title>
+    <title>Products - RobbingKeebs</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Header -->
     <header>
         <div class="container">
-            <h1><a href="index.php">⌨️ KeyboardHub</a></h1>
+            <a href="index.php"><img src="images/RBKLogo.png" height=67px width= 67px alt="RobbingKeebsLogo" /></a>
             <nav>
                 <ul>
                     <li><a href="index.php">Home</a></li>
@@ -213,7 +213,7 @@ if ($category_id) {
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 KeyboardHub. All rights reserved.</p>
+            <p>&copy; 2025 RobbingKeebs. All rights reserved.</p>
             <p>Your destination for premium mechanical keyboards</p>
         </div>
     </footer>

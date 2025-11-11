@@ -68,14 +68,14 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orders Management - KeyboardHub Admin</title>
+    <title>Orders Management - RobbingKeebs Admin</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <!-- Header -->
     <header>
         <div class="container">
-            <h1><a href="dashboard.php">⌨️ KeyboardHub Admin</a></h1>
+            <h1><a href="dashboard.php">RBK Admin</a></h1>
             <nav>
                 <ul>
                     <li><a href="dashboard.php">Dashboard</a></li>
@@ -275,7 +275,7 @@ $conn->close();
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 KeyboardHub. All rights reserved.</p>
+            <p>&copy; 2025 RobbingKeebs. All rights reserved.</p>
             <p>Admin Panel</p>
         </div>
     </footer>

@@ -17,14 +17,14 @@ $cart_count = getCartCount();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KeyboardHub - Premium Mechanical Keyboards</title>
+    <title>RobbingKeebs - Premium Mechanical Keyboards</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <div class="container">
-            <h1><a href="index.php">⌨️ KeyboardHub</a></h1>
+        <div class="container"> 
+            <a href="index.php"><img src="images/RBKLogo.png" height=67px width= 67px alt="RobbingKeebsLogo" /></a>
             <nav>
                 <ul>
                     <li><a href="index.php">Home</a></li>
@@ -46,8 +46,8 @@ $cart_count = getCartCount();
         <div class="container">
             <!-- Hero Section -->
             <section class="hero">
-                <h2>Welcome to KeyboardHub</h2>
-                <p>Discover premium mechanical keyboards for the ultimate typing experience</p>
+                <h2>Welcome to RobbingKeebs!</h2>
+                <p>Discover premium mechanical keyboards for the ultimate typing experience!</p>
                 <a href="products.php" class="btn">Shop Now</a>
             </section>
 
@@ -110,7 +110,7 @@ $cart_count = getCartCount();
 
             <!-- Why Choose Us Section -->
             <section style="margin-top: 3rem;">
-                <h2 style="margin-bottom: 1.5rem; color: #2c3e50; text-align: center;">Why Choose KeyboardHub?</h2>
+                <h2 style="margin-bottom: 1.5rem; color: #2c3e50; text-align: center;">Why Choose RobbingKeebs?</h2>
                 <div class="product-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
                     <div class="product-card">
                         <div class="product-image">🚚</div>
@@ -140,7 +140,7 @@ $cart_count = getCartCount();
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 KeyboardHub. All rights reserved.</p>
+            <p>&copy; 2025 RobbingKeebs. All rights reserved.</p>
             <p>Your destination for premium mechanical keyboards</p>
         </div>
     </footer>
