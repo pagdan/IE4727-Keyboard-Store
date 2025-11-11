@@ -57,8 +57,12 @@ const ProductDetail = () => {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-        <div className="card p-8 flex items-center justify-center bg-dark-800 min-h-[400px]">
-          <div className="text-9xl">🎹</div>
+        <div className="card bg-dark-800 overflow-hidden">
+          <img 
+          src={product.imageUrl}
+          alt={product.name}
+          className="w-full h-full object-cover"
+        />
         </div>
 
         <div>

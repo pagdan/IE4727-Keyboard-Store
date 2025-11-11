@@ -43,7 +43,7 @@ const AdminLogin = () => {
       <div className="max-w-md w-full">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold gradient-text mb-2">
-            KeyboardHub
+            RobbingKeebs
           </h1>
           <h2 className="text-2xl text-gray-400">Admin Login</h2>
         </div>

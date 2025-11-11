@@ -16,9 +16,11 @@ const ProductCard = ({ product }) => {
       to={`/products/${product._id}`}
       className="card card-hover group"
     >
-      <div className="bg-dark-800 h-56 flex items-center justify-center text-6xl">
-        🎹
-      </div>
+      <img
+        src={product.imageUrl}
+        alt={product.name}
+        className="w-full h-48 object-cover"
+      />
 
       <div className="p-6">
         <h3 className="text-lg font-semibold mb-2 group-hover:text-primary-500 transition-colors">

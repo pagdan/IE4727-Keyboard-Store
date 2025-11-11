@@ -25,8 +25,8 @@ const Home = () => {
 
   const categories = [
     { name: 'Keyboards', icon: '⌨️', link: '/products?category=Keyboards' },
-    { name: 'Switches', icon: '🔘', link: '/products?category=Switches' },
-    { name: 'Keycaps', icon: '🎨', link: '/products?category=Keycaps' }
+    { name: 'Switches', icon: '+', link: '/products?category=Switches' },
+    { name: 'Keycaps', icon: '⏢', link: '/products?category=Keycaps' }
   ];
 
   return (

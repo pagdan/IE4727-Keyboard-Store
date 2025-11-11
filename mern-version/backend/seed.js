@@ -14,6 +14,7 @@ const products = [
     category: 'Keyboards',
     stockQuantity: 15,
     featured: true,
+    imageUrl: '/gmmk-pro.jpg',
     specifications: new Map([
       ['Layout', '75%'],
       ['Switch', 'Hot-swap'],
@@ -29,6 +30,7 @@ const products = [
     category: 'Keyboards',
     stockQuantity: 20,
     featured: true,
+    imageUrl: '/keychron-q1.jpg',
     specifications: new Map([
       ['Layout', '75%'],
       ['Switch', 'Hot-swap'],
@@ -43,6 +45,7 @@ const products = [
     price: 139.99,
     category: 'Keyboards',
     stockQuantity: 25,
+    imageUrl: '/ducky-one3.jpg',
     specifications: new Map([
       ['Layout', 'TKL'],
       ['Switch', 'Cherry MX'],
@@ -57,6 +60,7 @@ const products = [
     price: 149.99,
     category: 'Keyboards',
     stockQuantity: 10,
+    imageUrl: '/tofu65.jpg',
     specifications: new Map([
       ['Layout', '65%'],
       ['Switch', 'Hot-swap'],
@@ -74,6 +78,7 @@ const products = [
     category: 'Switches',
     stockQuantity: 50,
     featured: true,
+    imageUrl: '/mx-red.jpg',
     specifications: new Map([
       ['Type', 'Linear'],
       ['Actuation', '45g'],
@@ -87,6 +92,7 @@ const products = [
     price: 24.99,
     category: 'Switches',
     stockQuantity: 80,
+    imageUrl: '/gateron-yellow.jpg',
     specifications: new Map([
       ['Type', 'Linear'],
       ['Actuation', '50g'],
@@ -100,6 +106,7 @@ const products = [
     price: 34.99,
     category: 'Switches',
     stockQuantity: 40,
+    imageUrl: '/glorious-panda.jpg',
     specifications: new Map([
       ['Type', 'Tactile'],
       ['Actuation', '67g'],
@@ -113,6 +120,7 @@ const products = [
     price: 29.99,
     category: 'Switches',
     stockQuantity: 60,
+    imageUrl: '/box-white.jpg',
     specifications: new Map([
       ['Type', 'Clicky'],
       ['Actuation', '50g'],
@@ -129,6 +137,7 @@ const products = [
     category: 'Keycaps',
     stockQuantity: 12,
     featured: true,
+    imageUrl: '/gmk-striker.jpg',
     specifications: new Map([
       ['Profile', 'Cherry'],
       ['Material', 'ABS'],
@@ -142,6 +151,7 @@ const products = [
     price: 89.99,
     category: 'Keycaps',
     stockQuantity: 18,
+    imageUrl: '/pbt-islander.jpg',
     specifications: new Map([
       ['Profile', 'Cherry'],
       ['Material', 'PBT'],
@@ -155,6 +165,7 @@ const products = [
     price: 99.99,
     category: 'Keycaps',
     stockQuantity: 15,
+    imageUrl: '/mt3-susuwatari.jpg',
     specifications: new Map([
       ['Profile', 'MT3'],
       ['Material', 'PBT'],
@@ -168,6 +179,7 @@ const products = [
     price: 79.99,
     category: 'Keycaps',
     stockQuantity: 20,
+    imageUrl: '/xda-canvas.jpg',
     specifications: new Map([
       ['Profile', 'XDA'],
       ['Material', 'PBT'],

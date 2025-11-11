@@ -25,8 +25,8 @@ const orderItemSchema = new mongoose.Schema({
 const orderSchema = new mongoose.Schema({
   orderNumber: {
     type: String,
-    unique: true,
-    required: true
+    unique: true
+    // REMOVED required: true - let it be generated
   },
   customer: {
     name: {
@@ -95,11 +95,16 @@ const orderSchema = new mongoose.Schema({
   }
 });
 
-// Generate order number before saving
+// Generate order number before saving - FIXED VERSION
 orderSchema.pre('save', async function(next) {
-  if (this.isNew) {
-    const count = await mongoose.model('Order').countDocuments();
-    this.orderNumber = `ORD-${String(count + 1).padStart(6, '0')}`;
+  // Only generate if this is a new order and orderNumber doesn't exist
+  if (this.isNew && !this.orderNumber) {
+    try {
+      const count = await this.constructor.countDocuments();
+      this.orderNumber = `ORD-${String(count + 1).padStart(6, '0')}`;
+    } catch (error) {
+      return next(error);
+    }
   }
   this.updatedAt = Date.now();
   next();

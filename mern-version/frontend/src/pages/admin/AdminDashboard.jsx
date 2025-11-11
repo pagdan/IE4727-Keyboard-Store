@@ -193,12 +193,12 @@ const AdminDashboard = () => {
               >
                 Manage Orders
               </Link>
-              
-                href="/"
-                className="btn btn-secondary w-full block text-center"
-              <a>
+              <Link
+                to="/"
+                className="btn btn-primary w-full block text-center"
+              >
                 View Store
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -89,7 +89,7 @@ $cart_count = getCartCount();
                 <div class="product-grid">
                     <?php foreach ($featured_products as $product): ?>
                         <div class="product-card">
-                            <div class="product-image">⌨️</div>
+                            <div class="product-image"><img width=100px src="<?php echo htmlspecialchars($product['image_url']); ?>"></div>
                             <h3><?php echo htmlspecialchars($product['product_name']); ?></h3>
                             <p class="category"><?php echo htmlspecialchars($product['category_name']); ?></p>
                             <p class="price"><?php echo formatPrice($product['price']); ?></p>

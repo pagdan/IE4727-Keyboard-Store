@@ -16,8 +16,12 @@ const Header = () => {
     <header className="bg-dark-900 border-b-2 border-primary-600 sticky top-0 z-50">
       <nav className="container-custom py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="text-2xl font-bold gradient-text">
-            RobbingKeebs
+          <Link to="/" className="flex items-center">
+            <img 
+            src="/RBKLogo.png" 
+            alt="RobbingKeebs" 
+            className="h-12 w-auto transition-transform hover:scale-110"
+          />
           </Link>
 
           {!isAdmin && (
