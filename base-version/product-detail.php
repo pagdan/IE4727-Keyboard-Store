@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                 <div class="product-detail-grid">
                     <!-- Product Image -->
                     <div class="product-detail-image">
-                        ⌨️
+                        <img width=600px src="<?php echo htmlspecialchars($product['image_url']); ?>">
                     </div>
 
                     <!-- Product Information -->

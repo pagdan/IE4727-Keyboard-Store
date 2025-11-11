@@ -254,7 +254,7 @@ $cart_count = getCartCount();
             <div style="text-align: center; padding: 2rem; background-color: #fff; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
                 <div style="font-size: 3rem; margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
                 <p style="font-style: italic; color: #7f8c8d; margin-bottom: 1rem; max-width: 600px; margin-left: auto; margin-right: auto;">
-                    "KeyboardHub has the best selection of mechanical keyboards. Fast shipping and excellent customer service!"
+                    "RobbingKeebs has the best selection of mechanical keyboards. Fast shipping and excellent customer service!"
                 </p>
                 <p style="font-weight: bold; color: #2c3e50;">- Happy Customer</p>
                 <div style="margin-top: 1.5rem; display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">

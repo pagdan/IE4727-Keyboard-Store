@@ -68,9 +68,9 @@ $cart_count = getCartCount();
                                 } elseif (stripos($category['category_name'], '60%') !== false || stripos($category['category_name'], '65%') !== false) {
                                     $emoji = '📱';
                                 } elseif (stripos($category['category_name'], 'Switch') !== false) {
-                                    $emoji = '🔘';
+                                    $emoji = '➕';
                                 } elseif (stripos($category['category_name'], 'Keycap') !== false) {
-                                    $emoji = '🎨';
+                                    $emoji = '🔳';
                                 }
                                 echo $emoji;
                                 ?>
