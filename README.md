@@ -549,8 +549,11 @@ This project demonstrates:
 ## Developers
 
 **Name:** Robert & Bing
+
 **Course:** IE4727 - Web Application Design
+
 **Institution:** Nanyang Technological University
+
 **Year:** Y25S1
 
 ---
