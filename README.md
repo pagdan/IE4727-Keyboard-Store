@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project contains **two complete implementations** of the same e-commerce application:
 
@@ -19,7 +19,7 @@ Both versions feature identical functionality but demonstrate different architec
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 ### Customer Features
 - ✅ Browse products by category (Keyboards, Switches, Keycaps)
@@ -40,7 +40,7 @@ Both versions feature identical functionality but demonstrate different architec
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ```
 keyboard-store/
 │
@@ -116,7 +116,7 @@ keyboard-store/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Base Version (PHP/MySQL)
 
@@ -205,7 +205,7 @@ mongod
 
 ---
 
-## 💻 Technology Stack
+## Technology Stack
 
 ### Base Version (Traditional Stack)
 
@@ -254,7 +254,7 @@ mongod
 
 ---
 
-## 🗄️ Database Design
+## Database Design
 
 ### Base Version - MySQL Schema
 
@@ -299,7 +299,7 @@ admins {
 
 ---
 
-## 🎓 Academic Requirements Met
+## Project Requirements
 
 ### Base Version Requirements (85%)
 
@@ -333,7 +333,7 @@ admins {
 
 ---
 
-## 🔐 Security Features
+## Security Features
 
 ### Base Version
 - ✅ SQL injection prevention (prepared statements)
@@ -353,7 +353,7 @@ admins {
 
 ---
 
-## 📡 API Documentation (MERN Version)
+## API Documentation (MERN Version)
 
 ### Public Endpoints
 ```
@@ -386,7 +386,7 @@ headers: {
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Test Credentials
 
@@ -433,7 +433,7 @@ headers: {
 
 ---
 
-## 📊 Performance Comparison
+## Performance Comparison
 
 | Metric | Base Version | MERN Version |
 |--------|--------------|--------------|
@@ -446,7 +446,7 @@ headers: {
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Base Version Issues
 
@@ -491,7 +491,7 @@ lsof -ti:5000 | xargs kill -9
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Base Version Deployment
 
@@ -529,7 +529,7 @@ npm run build
 
 ---
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 - ✅ Full-stack web development
@@ -546,22 +546,22 @@ This project demonstrates:
 
 ---
 
-## 👨‍💻 Developers
+## Developers
 
-**Name:** Robert & Bing 
-**Course:** IE4717 - Web Application Design  
-**Institution:** Nanyang Technological University  
-**Year:** 2025  
-
----
-
-## 📄 License
-
-This project is developed for educational purposes as part of IE4717 coursework.
+**Name:** Robert & Bing
+**Course:** IE4727 - Web Application Design
+**Institution:** Nanyang Technological University
+**Year:** Y25S1
 
 ---
 
-## 🙏 Acknowledgments
+## License
+
+This project is developed for educational purposes as part of IE4727 coursework.
+
+---
+
+## Acknowledgments
 
 - Inspiration: ktechs.store
 - Icons: Heroicons
@@ -572,24 +572,18 @@ This project is developed for educational purposes as part of IE4717 coursework.
 
 ---
 
-## 📞 Contact & Support
+## Contact & Support
 
 For questions about this project:
-- 📧 Email: rmgp2001@gmail.com
-- 🐱 GitHub: https://github.com/pagdan/IE4727-Keyboard-Store
+- GitHub: https://github.com/pagdan/IE4727-Keyboard-Store
 
 ---
 
-## ⭐ Project Status
+## Project Status
 
 **Status:** ✅ Complete and Ready for Submission
 
 **Completion Date:** November 2025
-
-**Grade Distribution:**
-- Base Version: 85% ✅
-- MERN Version: 15% ✅
-- **Total:** 100% ✅
 
 ---
 
